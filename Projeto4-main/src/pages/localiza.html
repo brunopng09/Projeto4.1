@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilo.css">
+    <!-- CHAMANDO O CSS DA API -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"crossorigin=""/>
     <title>Contato</title>
 </head>
 <body>
@@ -26,12 +28,17 @@
             <section id="mapa-container">
                 <div id="mapaid"></div>
                 <div id="localizacao">Clique para ver a localização</div>
-
-
             </section>
 
         </div>
     </main>
+
+
+<!-- CHAMANDO JAVASCRIPT DA API -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"crossorigin=""></script>
+
+<!-- CHAMANDO JAVASCRIPT EXTERNO -->
+<script src="../js/localiza.js"></script>
 
 </body>
 </html>
